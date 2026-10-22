@@ -16,12 +16,26 @@ This project is a part of a backend course on [boot.dev](https://www.boot.dev/).
 - dotenv
 
 ## Installation
+1. Clone the repository.
 
-- Set up your API key in `.env`.
-- Run the following:
-```
-uv sync
-```
+   ```bash
+   git clone https://github.com/faisalalhatimi/ai-agent.git
+   cd ai-agent
+   ```
+
+2. Create a `.env` file in the project root and configure the following environment variable.
+
+   ```env
+   OPENROUTER_API_KEY=your_api_key
+   ```
+
+
+
+3. Install the dependencies.
+
+   ```bash
+   uv sync
+   ```
 
 ## Usage
 
